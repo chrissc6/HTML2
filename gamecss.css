@@ -1,0 +1,29 @@
+.CH{
+    font-size: 2.0em;
+}
+b{
+    
+}
+html{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+ .column {
+    float: left;
+    width: 30%;
+    padding: 3px;
+    text-align: center;
+    
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    align-items: center
+  } 
